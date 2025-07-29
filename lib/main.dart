@@ -2,12 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_fahri/container_widget/container_dua.dart';
 import 'package:flutter_fahri/container_widget/container_satu.dart';
 import 'package:flutter_fahri/main_layout.dart';
+import 'package:flutter_fahri/row_column_widget/column_satu.dart';
+import 'package:flutter_fahri/row_column_widget/latihan_course_card.dart';
+import 'package:flutter_fahri/row_column_widget/latihan_row_column.dart';
+import 'package:flutter_fahri/row_column_widget/latihan_satu.dart';
+import 'package:flutter_fahri/row_column_widget/row_satu.dart';
 import 'package:flutter_fahri/stack_widget/stack_dua.dart';
 import 'package:flutter_fahri/stack_widget/stack_satu.dart';
 import 'package:flutter_fahri/stack_widget/stack_tiga.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -15,9 +20,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StackThree()
+      home: LatihanCourse()
     );
   }
 }
