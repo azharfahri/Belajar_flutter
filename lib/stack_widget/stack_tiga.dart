@@ -13,7 +13,7 @@ class StackThree extends StatelessWidget {
           Image.network(
             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsB9xWMWcViX00eQHKrVjRb9L0ekxgN8b2PA&s'
           ),
-          Positioned(
+          const Positioned(
             bottom: 10,
             left: 10,
             child: Text('ngetes'),
