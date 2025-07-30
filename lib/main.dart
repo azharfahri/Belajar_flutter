@@ -3,6 +3,7 @@ import 'package:flutter_fahri/container_widget/container_dua.dart';
 import 'package:flutter_fahri/container_widget/container_satu.dart';
 import 'package:flutter_fahri/grid_view/grid_contoh.dart';
 import 'package:flutter_fahri/grid_view/grid_satu.dart';
+import 'package:flutter_fahri/grid_view/latihan_grid1.dart';
 import 'package:flutter_fahri/list_widget/list_dua.dart';
 import 'package:flutter_fahri/list_widget/list_satu.dart';
 import 'package:flutter_fahri/list_widget/list_screen.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GridProductPage()
+      home: GridLatihan()
     );
   }
 }
