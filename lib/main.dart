@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_fahri/container_widget/container_dua.dart';
 import 'package:flutter_fahri/container_widget/container_satu.dart';
+import 'package:flutter_fahri/form_widget/input_screen.dart';
 import 'package:flutter_fahri/grid_view/grid_contoh.dart';
 import 'package:flutter_fahri/grid_view/grid_satu.dart';
 import 'package:flutter_fahri/grid_view/latihan_grid1.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LatihanGrid()
+      home: InputFormScreen()
     );
   }
 }
